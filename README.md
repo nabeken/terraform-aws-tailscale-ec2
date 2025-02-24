@@ -2,10 +2,10 @@
 
 [![Pre-Commit](https://github.com/nabeken/terraform-aws-tailscale-ec2/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/nabeken/terraform-aws-tailscale-ec2/actions/workflows/pre-commit.yml)
 
-`terraform-aws-tailscale-ec2` is a Terraform module that provisions necessary resources for Talscale on EC2.
+`terraform-aws-tailscale-ec2` is a Terraform module that provisions necessary resources for Tailscale on EC2.
 - Security Groups to allow Tailscale's WireGuard traffic
 - ENI associated with EIP and IPv6
-- EC2 instance to install Tailscale and tweak the configuration
+- EC2 instance with Tailscale installed and the tweaked configuration
 
 As of Feb 24 2025, the module do not use Tailscale's Auth Key to join an instance automatically to your tailnet. An admin needs to login to an instance via AWS Sessions Manager to execute `tailscale up` command.
 
