@@ -1,6 +1,6 @@
-data "aws_ami" "ubuntu-linux-2404" {
+data "aws_ami" "ubuntu_linux_2404" {
   most_recent = true
-  owners      = ["099720109477"] // refer to the official AMIs by Canonical
+  owners      = ["099720109477"] # refer to the official AMIs by Canonical
 
   filter {
     name   = "name"
@@ -18,7 +18,7 @@ resource "random_id" "tailscale" {
 }
 
 resource "aws_instance" "tailscale" {
-  ami                  = data.aws_ami.ubuntu-linux-2404.id
+  ami                  = data.aws_ami.ubuntu_linux_2404.id
   instance_type        = var.instance_type
   iam_instance_profile = var.iam_instance_profile_name
 
