@@ -2,7 +2,7 @@
 
 [![Pre-Commit](https://github.com/nabeken/terraform-aws-tailscale-ec2/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/nabeken/terraform-aws-tailscale-ec2/actions/workflows/pre-commit.yml)
 
-`terraform-aws-tailscale-ec2` is a Terraform module that provisions necessary resources for Talscale on EC2.
+`terraform-aws-tailscale-ec2` is a Terraform module that provisions necessary resources for Tailscale on EC2.
 - Security Groups to allow Tailscale's WireGuard traffic
 - ENI associated with EIP and IPv6
 - EC2 instance to install Tailscale and tweak the configuration
