@@ -75,7 +75,7 @@ No providers.
 |------|--------|---------|
 | <a name="module_instance"></a> [instance](#module\_instance) | ./modules/instance | n/a |
 | <a name="module_network"></a> [network](#module\_network) | ./modules/network | n/a |
-| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | ./modules/network/security-group | n/a |
+| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | ./modules/security-group | n/a |
 
 ## Resources
 

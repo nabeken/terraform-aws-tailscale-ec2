@@ -24,7 +24,7 @@ No modules.
 |------|------|
 | [aws_instance.tailscale](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
 | [random_id.tailscale](https://registry.terraform.io/providers/hashicorp/random/3.6.3/docs/resources/id) | resource |
-| [aws_ami.ubuntu-linux-2404](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
+| [aws_ami.ubuntu_linux_2404](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
 
 ## Inputs
 

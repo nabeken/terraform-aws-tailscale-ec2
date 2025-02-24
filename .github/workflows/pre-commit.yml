@@ -2,9 +2,10 @@ name: Pre-Commit
 
 on:
   push:
-  pull_request:
     branches:
       - main
+  pull_request:
+
 env:
   TERRAFORM_DOCS_VERSION: 0.16.0
   HCLEDIT_VERSION: 0.2.6

@@ -35,5 +35,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_network_interface_id"></a> [network\_interface\_id](#output\_network\_interface\_id) | n/a |
+| <a name="output_network_interface_id"></a> [network\_interface\_id](#output\_network\_interface\_id) | ENI ID |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
