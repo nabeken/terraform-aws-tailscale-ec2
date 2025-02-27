@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/nabeken/terraform-aws-tailscale-ec2/compare/v1.0.0...v1.0.1) (2025-02-27)
+
+
+### Bug Fixes
+
+* relax the version constraint ([#6](https://github.com/nabeken/terraform-aws-tailscale-ec2/issues/6)) ([60ceee1](https://github.com/nabeken/terraform-aws-tailscale-ec2/commit/60ceee19a95ba15190f89a8ea13653af291cd400))
+
 ## 1.0.0 (2025-02-24)
 
 
