@@ -39,4 +39,12 @@ resource "aws_instance" "tailscale" {
   tags = {
     Name = "${var.resource_prefix}-${random_id.tailscale.hex}"
   }
+
+  lifecycle {
+    ignore_changes = [
+      # AMI will be choosen as of the instance creation.
+      # If you want to change AMI, you should rebuild it from the scratch
+      ami,
+    ]
+  }
 }
