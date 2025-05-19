@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/nabeken/terraform-aws-tailscale-ec2/compare/v1.0.2...v1.0.3) (2025-05-19)
+
+
+### Bug Fixes
+
+* **network:** expose more EIP attributes ([#10](https://github.com/nabeken/terraform-aws-tailscale-ec2/issues/10)) ([1bf5198](https://github.com/nabeken/terraform-aws-tailscale-ec2/commit/1bf5198c21793d8f8f5639e21a056aa77b306f16))
+
 ## [1.0.2](https://github.com/nabeken/terraform-aws-tailscale-ec2/compare/v1.0.1...v1.0.2) (2025-03-08)
 
 
