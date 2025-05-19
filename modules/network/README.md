@@ -35,5 +35,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_eip_allocation_id"></a> [eip\_allocation\_id](#output\_eip\_allocation\_id) | EIP Allocation ID |
+| <a name="output_eip_public_ip"></a> [eip\_public\_ip](#output\_eip\_public\_ip) | EIP Public IP |
 | <a name="output_network_interface_id"></a> [network\_interface\_id](#output\_network\_interface\_id) | ENI ID |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
