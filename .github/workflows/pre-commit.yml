@@ -22,7 +22,7 @@ jobs:
         uses: clowdhaus/terraform-composite-actions/pre-commit@main
         with:
           # Configure default software
-          terraform-version: 1.2.0
+          terraform-version: 1.12.2
           terraform-docs-version: v${{ env.TERRAFORM_DOCS_VERSION }}
           # Configure optional software
           install-hcledit: true
