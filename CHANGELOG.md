@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/nabeken/terraform-aws-tailscale-ec2/compare/v1.0.3...v2.0.0) (2025-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump to aws v6 provider ([#12](https://github.com/nabeken/terraform-aws-tailscale-ec2/issues/12))
+
+### Features
+
+* bump to aws v6 provider ([#12](https://github.com/nabeken/terraform-aws-tailscale-ec2/issues/12)) ([1b84d1d](https://github.com/nabeken/terraform-aws-tailscale-ec2/commit/1b84d1d7eedcbbfe9230ad47aee9ae74151162ba))
+
 ## [1.0.3](https://github.com/nabeken/terraform-aws-tailscale-ec2/compare/v1.0.2...v1.0.3) (2025-05-19)
 
 
